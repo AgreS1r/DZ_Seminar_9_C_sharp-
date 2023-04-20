@@ -17,4 +17,3 @@ void SumFromStartToEnd (int numberM, int numberN, int sum)
     sum = sum + (numberM++);
     SumFromStartToEnd(numberM, numberN, sum);
 }
-
